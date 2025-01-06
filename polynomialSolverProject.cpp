@@ -30,7 +30,10 @@ map<int, int> multiplyPolynomials(const map<int, int>& p1, const map<int, int>& 
     
 }// Function to display a polynomial
 void printPolynomial(const map<int, int>& poly) {
-    bool first = true; else if (it->second < 0) cout << " - ";
+    bool first = true; else if (it->second < 0) cout << " - "; if (it->first > 0) cout << "x";
+        if (it->first > 1) cout << "^" << it->first;
+
+        first = false;
 
         if (abs(it->second) != 1 || it->first == 0)
             cout << abs(it->second);
