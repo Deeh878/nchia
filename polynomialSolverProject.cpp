@@ -40,6 +40,13 @@ void printPolynomial(const map<int, int>& poly) {
 
 int main() {
     // Define polynomials
+     map<int, int> p1 = {{2, 3}, {1, 2}, {0, 1}}; // 3x^2 + 2x + 1
+    map<int, int> p2 = {{1, 1}, {0, 1}};         // x + 1
+
+    // Add polynomials
+     map<int, int> sum = addPolynomials(p1, p2);
+    cout << "Addition: ";
+    printPolynomial(sum);
     
     
     
