@@ -27,4 +27,6 @@ map<int, int> multiplyPolynomials(const map<int, int>& p1, const map<int, int>& 
             result[degree] += coefficient;
         } }
     return result;
-}
+}// Function to display a polynomial
+void printPolynomial(const map<int, int>& poly) {
+    bool first = true;
