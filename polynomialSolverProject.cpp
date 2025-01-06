@@ -33,7 +33,42 @@ void printPolynomial(const map<int, int>& poly) {
     bool first = true; else if (it->second < 0) cout << " - "; if (it->first > 0) cout << "x";
         if (it->first > 1) cout << "^" << it->first;
 
-        first = false;
+        first = false; }
+    if (first) cout << "0"; // In case all coefficients are zero
+    cout << endl;
+    }
+
+int main() {
+    // Define polynomials
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
         if (abs(it->second) != 1 || it->first == 0)
             cout << abs(it->second);
