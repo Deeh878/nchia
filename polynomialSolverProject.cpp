@@ -47,6 +47,10 @@ int main() {
      map<int, int> sum = addPolynomials(p1, p2);
     cout << "Addition: ";
     printPolynomial(sum);
+      // Subtract polynomials
+    map<int, int> diff = subtractPolynomials(p1, p2);
+    cout << "Subtraction: ";
+    printPolynomial(diff);
     
     
     
