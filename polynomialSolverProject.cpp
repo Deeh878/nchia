@@ -53,6 +53,10 @@ int main() {
     printPolynomial(diff);// Multiply polynomials
     map<int, int> product = multiplyPolynomials(p1, p2);
     cout << "Multiplication: ";
+     printPolynomial(product);
+
+    return 0;
+}
     
     
     
