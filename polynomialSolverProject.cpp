@@ -50,7 +50,9 @@ int main() {
       // Subtract polynomials
     map<int, int> diff = subtractPolynomials(p1, p2);
     cout << "Subtraction: ";
-    printPolynomial(diff);
+    printPolynomial(diff);// Multiply polynomials
+    map<int, int> product = multiplyPolynomials(p1, p2);
+    cout << "Multiplication: ";
     
     
     
