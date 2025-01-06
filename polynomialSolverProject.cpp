@@ -23,4 +23,6 @@ map<int, int> multiplyPolynomials(const map<int, int>& p1, const map<int, int>& 
     map<int, int> result;
      for (const auto& term1 : p1) {
         for (const auto& term2 : p2) {
-            int degree = term1.first + term2.first;
+            int degree = term1.first + term2.first;int coefficient = term1.second * term2.second;
+            result[degree] += coefficient;
+        }
