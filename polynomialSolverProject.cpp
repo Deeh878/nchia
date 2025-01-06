@@ -18,4 +18,6 @@ map<int, int> subtractPolynomials(const map<int, int>& p1, const map<int, int>& 
     	   result[term.first] -= term.second;
     }
     return result;
-}
+}// Function to multiply two polynomials
+map<int, int> multiplyPolynomials(const map<int, int>& p1, const map<int, int>& p2) {
+    map<int, int> result;
